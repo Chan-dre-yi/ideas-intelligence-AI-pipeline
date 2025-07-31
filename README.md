@@ -3,8 +3,8 @@
 Pipeline:
 
 DATA COLLECTION
-1. Scrape ideas from a website through auto-pilot web-scraping (100s of pages) (initial approach)
-2. OR use the backend database to collect ideas and its details (eventually)
+1. Scrape ideas from a website through auto-pilot web-scraping (100s of pages) (initial approach) (ideas_parser.py)
+2. OR use the backend database to collect ideas and its details (eventually) (ideasPBI.csv)
 
 USE CASE 1: 
 THEME BASED CLUSTERING of ideas using K means clustering, 
