@@ -22,14 +22,19 @@ VISUALIZING realtion of ideas, to facilitate linking them using an internal AI A
 2. Using networkx and plotly, visualizing the relations
 
 
+Final Results:
+
+Theme Clusters for one group
+<img width="1919" height="1129" alt="image" src="https://github.com/user-attachments/assets/32f5464d-a1cb-4532-9318-28fb4e836efe" />
+
+Summary of one theme
+<img width="1919" height="1124" alt="image" src="https://github.com/user-attachments/assets/52772994-17ed-48fe-bbe1-723e504bc909" />
+
 Hover (blue)
-
-
-
+<img width="1919" height="1055" alt="image" src="https://github.com/user-attachments/assets/f7ad17fa-9d85-456e-964f-ae41ff67d6da" />
 
 Click (red)
 <img width="1923" height="1055" alt="image" src="https://github.com/user-attachments/assets/4beb886e-5076-4b15-b83b-05d143e5a7d3" />
-
 
 Hover on related idea (yellow)
 <img width="1919" height="1136" alt="image" src="https://github.com/user-attachments/assets/c1a1c77b-b224-4b73-bd85-62eff3d54251" />
