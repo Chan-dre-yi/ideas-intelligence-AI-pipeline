@@ -9,6 +9,7 @@ DATA COLLECTION
 USE CASE 1: 
 THEME BASED CLUSTERING of ideas using K means clustering, 
 and SUMMARIZING each theme using Ollama & T5-small adaptively
+(ides_new_pipeline.py)
 1. Filter based on idea groups assigned by user
 2. Embed sentence transformer
 3. Determine optimal no. of lusters using K means clustering
