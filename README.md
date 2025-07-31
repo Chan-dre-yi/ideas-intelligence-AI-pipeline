@@ -22,6 +22,13 @@ VISUALIZING realtion of ideas, to facilitate linking them using an internal AI A
 1. Looping through an AI API call and creating the linkage dataset: ideas_with_similarities.xlsx (AI_parser.py)
 2. Using networkx and plotly, visualizing the relations (network_viz.py)
 
+ideasPBI.csv + [AI_parser.py]
+>>processed_ids.txt 
+>>results_checkpoint.pkl
+>>ideas_with_similarities.xlsx
+ideas_with_similarities.xlsx + [network_viz.py]
+127.0.0.1:8050
+
 
 Final Results:
 
