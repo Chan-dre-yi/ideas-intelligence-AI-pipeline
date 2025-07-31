@@ -19,8 +19,8 @@ and SUMMARIZING each theme using Ollama & T5-small adaptively
 
 USE CASE 2: 
 VISUALIZING realtion of ideas, to facilitate linking them using an internal AI API
-1. Looping through an AI API call and creating the linkage dataset: ideas_with_similarities.xlsx
-2. Using networkx and plotly, visualizing the relations
+1. Looping through an AI API call and creating the linkage dataset: ideas_with_similarities.xlsx (AI_parser.py)
+2. Using networkx and plotly, visualizing the relations (network_viz.py)
 
 
 Final Results:
