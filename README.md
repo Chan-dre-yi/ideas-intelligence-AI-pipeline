@@ -1,4 +1,4 @@
-# ideas-similarity-network
+# ideas-intelligence-pipeline
 
 Pipeline:
 
