@@ -17,6 +17,11 @@ and SUMMARIZING each theme using Ollama & T5-small adaptively
 5. Group by theme, and get sum counts of vodes, frequencies and comments
 6. Save results
 
+ideas_parser.py
+ideasPBI.csv
+ideas_new_pipeline.py
+thematic_summary.xlsx
+
 USE CASE 2: 
 VISUALIZING realtion of ideas, to facilitate linking them using an internal AI API
 1. Looping through an AI API call and creating the linkage dataset: ideas_with_similarities.xlsx (AI_parser.py)
