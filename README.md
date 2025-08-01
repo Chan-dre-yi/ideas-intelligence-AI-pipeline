@@ -87,6 +87,55 @@ Discover hidden connections between ideas using an internal AI similarity API an
 > Coming soon — setup instructions, environment config, and usage examples.
 
 
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the full pipeline from idea ingestion to clustering and visualization.
+
+---
+
+### ✅ Step 1: Collect Ideas
+
+Run the web scraper with required inputs 
+- supply the required credentials, links, and output file name to this script
+
+```bash
+python ideas_web_scraper.py
+```
+This will save scraped ideas into ideas_raw.csv. Alternatively, skip scraping and directly use the backend export if you have it. (ideasPBI.csv)
+
+### 🧠 Step 2: Run Theme-Based Clustering (Use Case 1)
+
+Run clustering and summarization for each group
+- Make sure you change the input file name, group filtering, and output file names before you run.
+- Filtered groups are passed one at a time.
+- Output files are generated per group.
+  
+```bash
+python use_case_1/ideas_pipeline_one.py
+```
+- After processing all groups, merge them into a single file (e.g. thematic_summary.xlsx) as a consolidated result.
+
+### 🔗 Step 3: Generate Idea Similarities (Use Case 2)
+
+Run the similarity mapping script
+- modify the the ideas base file, and AI API URL before running
+
+```bash
+python use_case_2/AI_parser.py 
+```
+- this will generate the file ideas_with_similarities.xlsx
+
+### 🌐 Step 4: Visualize Idea Network
+
+Run the similarity mapping script
+- modify the the ideas base file, and AI API URL before running
+
+```bash
+python use_case_2/AI_parser.py --input ideas_raw.csv --api_url <your_api_endpoint>
+```
+- this will generate the file ideas_with_similarities.xlsx
 
 
 
