@@ -4,6 +4,10 @@ An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visuali
 
 ---
 
+
+
+&nbsp;
+
 ## 🔧 Tech Stack
 
 - **🔧 Python**: pandas, scikit-learn, sentence-transformers, plotly, networkx, Dash  
@@ -11,6 +15,10 @@ An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visuali
 - **🔧 API**: Internal AI similarity engine  
 - **🔧 Data I/O**: CSV, Excel, Pickle 
 ---
+
+
+
+&nbsp;
 
  ## 📌 Pipeline Overview
 
@@ -47,7 +55,7 @@ Map relationships between similar ideas using an internal AI API and visualize t
 
 
 
-
+&nbsp;
 
 ---
 
@@ -83,7 +91,7 @@ Below are snapshots from a full run of the pipeline on one idea group. These exa
 
 
 
-
+&nbsp;
 
 ---
 
@@ -136,7 +144,7 @@ python use_case_2/network_viz.py
 
 
 
-
+&nbsp;
 
 ---
 
