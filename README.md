@@ -54,7 +54,7 @@ Discover hidden connections between ideas using an internal AI similarity API an
 #### **Steps**
 - **Create Linkage Dataset** (`AI_parser.py`):
    - Loop through all idea pairs.
-   - Use internal AI API to calculate similarity scores.
+   - Use internal AI API to find similar ideas.
    - Save results as `ideas_with_similarities.xlsx`.
    - Progress tracked using `processed_ids.txt` and `results_checkpoint.pkl`.
 
