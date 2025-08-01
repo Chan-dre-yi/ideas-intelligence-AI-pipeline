@@ -20,8 +20,6 @@ An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visuali
 
 &nbsp;
 
----
-
 ## 📊🌐 Preview
 
 Below are snapshots from a full run of the pipeline on one idea group. These examples illustrate both the **clustered themes** and the **interactive graph visualizations** that enable intuitive exploration and review.
@@ -30,13 +28,14 @@ Below are snapshots from a full run of the pipeline on one idea group. These exa
 
 <img width="1919" height="1129" alt="Theme Clusters" src="https://github.com/user-attachments/assets/32f5464d-a1cb-4532-9318-28fb4e836efe" />
 
----
+&nbsp;
 
 ### 📊 Summary of One Theme
 
 <img width="1919" height="1124" alt="Theme Summary" src="https://github.com/user-attachments/assets/52772994-17ed-48fe-bbe1-723e504bc909" />
 
 ---
+&nbsp;
 
 ### 🌐 Idea Relationship Network
 
@@ -44,14 +43,19 @@ Below are snapshots from a full run of the pipeline on one idea group. These exa
 
 <img width="1919" height="1055" alt="Hover Blue" src="https://github.com/user-attachments/assets/f7ad17fa-9d85-456e-964f-ae41ff67d6da" />
 
+&nbsp;
+
 #### 🌐🔴 Click (Red)
 
 <img width="1923" height="1055" alt="Click Red" src="https://github.com/user-attachments/assets/4beb886e-5076-4b15-b83b-05d143e5a7d3" />
+
+&nbsp;
 
 #### 🌐🟡 Hover on Related Idea (Yellow)
 
 <img width="1919" height="1136" alt="Hover Yellow" src="https://github.com/user-attachments/assets/c1a1c77b-b224-4b73-bd85-62eff3d54251" />
 
+---
 
 
 
@@ -90,12 +94,11 @@ Map relationships between similar ideas using an internal AI API and visualize t
 - Map similar ideas
 - Visualize relationships with NetworkX + Dash
 
-
+---
 
 
 &nbsp;
 
----
 
 ## 🚀 Getting Started
 
@@ -144,11 +147,11 @@ python use_case_2/network_viz.py
 ```
 - the network visualization will be available at `http://127.0.0.1:8050`.
 
+---
+
 
 
 &nbsp;
-
----
 
 ## 📁 Key Files
 
