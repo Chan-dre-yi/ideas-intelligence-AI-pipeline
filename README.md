@@ -16,11 +16,11 @@ An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visuali
 
 ### **1. Data Collection**
 
-> _Script: `ideas_parser.py`_
+> _Script: `ideas_web_scraper.py`_
 
 > _CSV: `ideasPBI.csv`_
 
-- **Auto-Pilot Scraping** (`ideas_parser.py`):  
+- **Auto-Pilot Scraping** (`ideas_web_scraper.py`):  
   Scrapes ideas from a website across hundreds of pages using an automated, headless browser setup.
   
 - **Backend Data Access** (`ideasPBI.csv`):  
