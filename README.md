@@ -26,7 +26,6 @@ An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visuali
 - **Backend Data Access** (`ideasPBI.csv`):  
   Alternative or eventual approach via direct export from the backend database for faster, more reliable ingestion.
 
----
 
 ### 2. use_case_1: Thematic Clustering & Adaptive Summarization
 
@@ -45,7 +44,6 @@ Apply K-Means clustering on idea embeddings to surface core themes and generate 
    - Sum of votes, comment counts, and idea frequency per theme.
 - **Export Results** to `thematic_summary.xlsx`.
 
----
 
 ### 3. use_case_2: Visualizing Idea Relationships
 
