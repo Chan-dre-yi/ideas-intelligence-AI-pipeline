@@ -4,6 +4,17 @@ An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visuali
 
 &nbsp;
 
+### 🔍 Key Features
+
+- **🔍 Automated Daily Ingestion**: Seamlessly collects 200+ new ideas each day from web or backend exports.
+- **🔍 Local LLM Summarization**: Uses Ollama + T5-small to generate adaptive, theme-based summaries offline.
+- **🔍 Smart Thematic Clustering**: Groups similar ideas using sentence embeddings and auto-tuned K-Means.
+- **🔍 Insight Aggregation**: Tracks total votes, comments, and idea volume per cluster.
+- **🔍 AI-Powered Similarity Linking**: Detects semantic relationships between ideas via internal similarity API.
+- **🔍 Interactive Network Visualization**: Renders a searchable, clickable graph of idea connections using Dash.
+
+&nbsp;
+
 ### 🛠 Built With
 
 - **🛠 Python**: pandas, scikit-learn, sentence-transformers, plotly, networkx, Dash  
