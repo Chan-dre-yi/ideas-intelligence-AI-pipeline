@@ -2,10 +2,6 @@
 
 An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visualize** crowdsourced ideas — enabling thematic insight extraction and link discovery at scale, with interactive network visualizations to help leadership efficiently explore, review, and act on emerging idea patterns — powered by locally hosted **LLMs (Ollama, T5-small)**.
 
----
-
-
-
 &nbsp;
 
 ### 🛠 Built With
@@ -14,9 +10,6 @@ An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visuali
 - **🛠 LLMs**: Ollama + T5-small (for theme summarization)  
 - **🛠 API**: Internal AI similarity engine  
 - **🛠 Data I/O**: CSV, Excel, Pickle 
----
-
-
 
 &nbsp;
 
