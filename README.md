@@ -24,6 +24,8 @@ An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visuali
 
 Below are snapshots from a full run of the pipeline on one idea group. These examples illustrate both the **clustered themes** and the **interactive graph visualizations** that enable intuitive exploration and review.
 
+&nbsp;
+
 ### 📊 Theme Clusters for One Group
 
 <img width="1919" height="1129" alt="Theme Clusters" src="https://github.com/user-attachments/assets/32f5464d-a1cb-4532-9318-28fb4e836efe" />
