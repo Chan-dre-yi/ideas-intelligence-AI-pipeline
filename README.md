@@ -1,16 +1,16 @@
 # Ideas Intelligence AI Pipeline
 
-An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visualize** crowdsourced ideas — enabling thematic insight extraction and link discovery at scale, with interactive network visualizations to help leadership efficiently explore, review, and act on emerging idea patterns — powered by locally hosted **LLMs (Ollama, T5-small)**.
+An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visualize** crowdsourced ideas — enabling thematic insight extraction and link discovery at scale, with interactive network visualizations to help leadership efficiently explore, review, and act on emerging idea patterns — powered by locally hosted **LLMs (Ollama, Mistral, T5-small)**.
 
 &nbsp;
 
 ### 🔍 Key Features
 
 - **🔍 Automated Daily Ingestion**: Seamlessly collects 200+ new ideas each day from web or backend exports.
-- **🔍 Local LLM Summarization**: Uses Ollama + T5-small to generate adaptive, theme-based summaries offline.
 - **🔍 Smart Thematic Clustering**: Groups similar ideas using sentence embeddings and auto-tuned K-Means.
+- **🔍 Generative LLM Summarization**: Uses Ollama, Mistral + T5-small to generate adaptive, theme-based summaries offline to preserve confidentiality for the data.
 - **🔍 Insight Aggregation**: Tracks total votes, comments, and idea volume per cluster.
-- **🔍 AI-Powered Similarity Linking**: Detects semantic relationships between ideas via internal similarity API.
+- **🔍 AI-Powered Similarity Linking**: Detects semantic relationships between ideas (using an internal Gen AI API endpoint, can be modified to use the local LLMs too).
 - **🔍 Interactive Network Visualization**: Renders a searchable, clickable graph of idea connections using Dash.
 
 &nbsp;
