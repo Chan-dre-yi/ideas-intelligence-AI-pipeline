@@ -8,12 +8,12 @@ An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visuali
 
 &nbsp;
 
-### 🔧 Tech Stack
+### 🛠 Built With
 
-- **🔧 Python**: pandas, scikit-learn, sentence-transformers, plotly, networkx, Dash  
-- **🔧 LLMs**: Ollama + T5-small (for theme summarization)  
-- **🔧 API**: Internal AI similarity engine  
-- **🔧 Data I/O**: CSV, Excel, Pickle 
+- **🛠 Python**: pandas, scikit-learn, sentence-transformers, plotly, networkx, Dash  
+- **🛠 LLMs**: Ollama + T5-small (for theme summarization)  
+- **🛠 API**: Internal AI similarity engine  
+- **🛠 Data I/O**: CSV, Excel, Pickle 
 ---
 
 
