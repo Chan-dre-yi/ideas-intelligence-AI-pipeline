@@ -20,7 +20,7 @@ An end-to-end pipeline to **collect**, **cluster**, **summarize**, and **visuali
 
 &nbsp;
 
-### 📊🌐 Preview
+### 📊 Preview
 
 Below are snapshots from a full run of the pipeline on one idea group. These examples illustrate both the **clustered themes** and the **interactive graph visualizations** that enable intuitive exploration and review.
 
