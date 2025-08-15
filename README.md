@@ -65,28 +65,6 @@ Below are snapshots from a full run of the pipeline on one idea group. These exa
 
 &nbsp;
 
-### ❓ FAQ
-
-&nbsp;
-
-#### ❓ Why not just use internal ChatGPT API for this?
-*"We did use the **internal ChatGPT API** for similarity linking. But on its own, it couldn’t **automate ingestion, clustering, or visualization**. The pipeline turned GEN AI capabilities into a **repeatable, structured system at scale**. It also **combined ChatGPT with other Gen AI models** (like **T5-small** for summarization and **Mistral** for efficiency), ensuring both **accuracy** and **scalability**."*
-
-&nbsp;
-
-#### ❓ Why not just use a relational database instead of Neo4j as next step?
-*"The project started with **CSV/Excel**, fine for prototyping, but as **ideas and links grew**, multi-hop queries became **cumbersome**. **Neo4j** was the **natural next step**: it stores **nodes/relationships natively**, enables **real-time visualization**, and runs **graph algorithms** directly. Though not completed due to a **re-org**, it was the **clear scaling path**—making reviews **faster, easier to maintain**, and shifting from **weeks** to **near-instant exploration**."*
-
-&nbsp;
-
-#### ❓ What was the real-world impact?
-*"The pipeline cut **review time** from **2–3 weeks** to just **2–3 days**. **Leadership** could see **duplicates, themes, and clusters instantly**, instead of manual sifting. **Employees** saw their ideas acknowledged **faster**, boosting **engagement and trust**. It even enabled **one-click approval** of suggested links, replacing **weeks of manual effort** with a **few seconds of review**."*
-
-
----
-
-&nbsp;
-
  ### 📌 Pipeline Overview
 
 #### **📌 1. Data Ingestion**
@@ -193,3 +171,20 @@ python use_case_2/network_viz.py
 | `results_checkpoint.pkl`     | Intermediate results checkpoint                  |
 | `network_viz.py`             | Visualizes idea connections with NetworkX + Dash |
 | `127.0.0.1:8050`             | Local Dash app for exploring the graph           | 
+
+---
+
+&nbsp;
+
+### ❓ FAQ
+
+**❓ Why not just use internal ChatGPT API for this?**
+- *"We did use the **internal ChatGPT API** for similarity linking. But on its own, it couldn’t **automate ingestion, clustering, or visualization**. The pipeline turned GEN AI capabilities into a **repeatable, structured system at scale**. It also **combined ChatGPT with other Gen AI models** (like **T5-small** for summarization and **Mistral** for efficiency), ensuring both **accuracy** and **scalability**."*
+
+**❓ Why not just use a relational database instead of Neo4j as next step?**
+- *"The project started with **CSV/Excel**, fine for prototyping, but as **ideas and links grew**, multi-hop queries became **cumbersome**. **Neo4j** was the **natural next step**: it stores **nodes/relationships natively**, enables **real-time visualization**, and runs **graph algorithms** directly. Though not completed due to a **re-org**, it was the **clear scaling path**—making reviews **faster, easier to maintain**, and shifting from **weeks** to **near-instant exploration**."*
+
+**❓ What was the real-world impact?**
+- *"The pipeline cut **review time** from **2–3 weeks** to just **2–3 days**. **Leadership** could see **duplicates, themes, and clusters instantly**, instead of manual sifting. **Employees** saw their ideas acknowledged **faster**, boosting **engagement and trust**. It even enabled **one-click approval** of suggested links, replacing **weeks of manual effort** with a **few seconds of review**."*
+
+---
