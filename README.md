@@ -182,7 +182,7 @@ python use_case_2/network_viz.py
 
 ---
 
-#### ❓ Why not stick with CSV/Excel or use SQL, instead of Neo4j?
+#### ❓ Why not stick with CSV/ Excel or use SQL, instead of Neo4j?
 *CSV/Excel and SQL work for early prototyping, but as idea volume and links grew, multi-hop queries became **cumbersome** and error-prone. **Neo4j** was the **clear next step**—it stores **nodes and relationships natively**, supports **real-time visualization**, and runs **graph algorithms** (like community detection). While integration was halted due to a **re-org**, its use would have made the pipeline **faster, more maintainable**, and turned reviews from **weeks into instant, interactive exploration**.*
 
 ---
