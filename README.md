@@ -178,31 +178,31 @@ python use_case_2/network_viz.py
 ### ​ ❓ FAQ
 
 #### ❓ Why not just use the internal ChatGPT API for this?
-*We **did use the internal ChatGPT API** for similarity linking. But on its own, it couldn't **automate ingestion, clustering, or visualization**. The pipeline transforms Gen AI into a **repeatable, structured system at scale**, adaptively combining ChatGPT with models like **T5-small** (for summarization) and **Mistral** (for efficiency) to ensure both **accuracy** and **scalability**.*
+- *We **did use the internal ChatGPT API** for similarity linking. But on its own, it couldn't **automate ingestion, clustering, or visualization**. The pipeline transforms Gen AI into a **repeatable, structured system at scale**, adaptively combining ChatGPT with models like **T5-small** (for summarization) and **Mistral** (for efficiency) to ensure both **accuracy** and **scalability**.*
 
 ---
 
 #### ❓ Why not stick with CSV/ Excel or use SQL, instead of Neo4j?
-*CSV/Excel and SQL work for early prototyping, but as idea volume and links grew, multi-hop queries became **cumbersome** and error-prone. **Neo4j** was the **clear next step**—it stores **nodes and relationships natively**, supports **real-time visualization**, and runs **graph algorithms** (like community detection). While integration was halted due to a **re-org**, its use would have made the pipeline **faster, more maintainable**, and turned reviews from **weeks into instant, interactive exploration**.*
+- *CSV/Excel and SQL work for early prototyping, but as idea volume and links grew, multi-hop queries became **cumbersome** and error-prone. **Neo4j** was the **clear next step**—it stores **nodes and relationships natively**, supports **real-time visualization**, and runs **graph algorithms** (like community detection). While integration was halted due to a **re-org**, its use would have made the pipeline **faster, more maintainable**, and turned reviews from **weeks into instant, interactive exploration**.*
 
 ---
 
 #### ❓ What was the real-world impact?
-*Review time dropped from **2–3 weeks to just 2–3 days**. Leadership gained instant visibility into **duplicates, themes, and clusters**, eliminating manual sifting. The tool enabled **one-click approval** of AI-suggested links, replacing **weeks of manual effort** with mere seconds—boosting both **engagement** and **decision speed**.*
+- *Review time dropped from **2–3 weeks to just 2–3 days**. Leadership gained instant visibility into **duplicates, themes, and clusters**, eliminating manual sifting. The tool enabled **one-click approval** of AI-suggested links, replacing **weeks of manual effort** with mere seconds—boosting both **engagement** and **decision speed**.*
 
 ---
 
 #### ❓ How did you ensure reliability and enterprise readiness?
-*All tech choices—from model selection to clustering strategy—were **continuously reviewed by ultra-senior mentors (with 25–30 years of experience)**. This oversight ensured the solution was **practical, scalable, and aligned with enterprise standards**, not just a one-off experiment.*
+- *All tech choices—from model selection to clustering strategy—were **continuously reviewed by ultra-senior mentors (with 25–30 years of experience)**. This oversight ensured the solution was **practical, scalable, and aligned with enterprise standards**, not just a one-off experiment.*
 
 ---
 
 #### ❓ Why not use a conventional search or dashboard tool?
-*Traditional BI tools or dashboards aren’t built for **semantic clustering**, **relationship mapping**, or **theme-based summarization**. Our solution uniquely combines **LLM summarization**, **sentence embeddings**, and **interactive network visuals**, offering leadership a **dynamic and insightful way** to explore employee ideas.*
+- *Traditional BI tools or dashboards aren’t built for **semantic clustering**, **relationship mapping**, or **theme-based summarization**. Our solution uniquely combines **LLM summarization**, **sentence embeddings**, and **interactive network visuals**, offering leadership a **dynamic and insightful way** to explore employee ideas.*
 
 ---
 
 #### ❓ What’s the project’s scalability roadmap?
-*The architecture is designed for modular growth:  **a. Neo4j integration** for scalable graph storage and querying  **b. Expanded AI models** for richer summarization/embedding  **c. Pipeline automation** for real-time idea ingestion and analysis. Even though the project was de-emphasized, it was clearly structured for future scaling and enterprise adoption.*
+- *The architecture is designed for modular growth:  **a. Neo4j integration** for scalable graph storage and querying  **b. Expanded AI models** for richer summarization/embedding  **c. Pipeline automation** for real-time idea ingestion and analysis. Even though the project was de-emphasized, it was clearly structured for future scaling and enterprise adoption.*
 
 ---
